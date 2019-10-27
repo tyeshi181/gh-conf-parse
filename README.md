@@ -19,7 +19,7 @@ npm install @gh-conf/gh-conf-parse
 ## Usage
 
 ```js
-const { ParseConfig, UserRepo } = require('@gh-conf/gh-conf-parse');
+const { ParseConfig, UserRepo } = require("@gh-conf/gh-conf-parse");
 
 const CurrConfig = ParseConfig();
 
@@ -43,7 +43,6 @@ const CurrConfig = ParseConfig();
 //    }
 // }
 
-
 const userRepo = UserRepo();
 
 // Output
@@ -51,7 +50,6 @@ const userRepo = UserRepo();
 //   repository:'gh-conf-parse',
 //   username:'gh-conf'
 // }
-
 ```
 
 ## API
@@ -69,7 +67,7 @@ const userRepo = UserRepo();
 Interested in contributing to this project?
 You can log any issues or suggestion related to this library [here](https://github.com/gh-conf/gh-conf-parse/issues/new).
 
-Read our contributing [guide](CONTRIBUTING.md) to get started with contributing to the codebase.
+Please read our [guide](CONTRIBUTING.md) to <strong>contributing</strong> before making any contribution to the codebase.
 
 ## Contributors
 
